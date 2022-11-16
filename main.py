@@ -35,9 +35,9 @@ def case_changer():
             pyautogui.press("capslock")
 
 
-icon_image = Image.open("icon.png")
+icon_image = Image.open("icon.ico")
 
-icon = Icon("CaseLess", icon_image,  title="CaseLess", menu=Menu(
+icon = Icon("Sticky Caps", icon_image,  title="Sticky Caps", menu=Menu(
     MenuItem("Enable", toggle_case_change, lambda x: active),
     MenuItem("Exit", stop),
 ))
